@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    .container
+        .row(style="padding: 15px;")
+            h1 Hi #{user.nickname}
+        .row
+            img(src=user.picture)
+            p(style="padding: 20px;") More content
